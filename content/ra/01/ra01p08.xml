@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <metadata>
+    <language>EN</language>
+    <description>
+    </description>
+    <keywords>
+    </keywords>
+    <date>2013-01-07</date>
+    <duration>
+    </duration>
+    <version>1.0</version>
+    <generator>
+    </generator>
+    <package_id>
+    </package_id>
+    <rights>Pelesys Learning Systems Inc.</rights>
+  </metadata>
+  <id>ra01p08</id>
+  <title>Determining a Reliable Airspeed Indication - 01</title>
+  <type>no_test</type>
+  <init_required>false</init_required>
+  <unload_required>false</unload_required>
+  <graphics_location>ra01p08.html</graphics_location>
+  <completion>last_section</completion>
+  <data>
+  </data>
+  <sections>
+    <section>
+      <id>s1</id>
+      <audio_location>ra01p08.mp3</audio_location>
+      <audio_text>All flight deck indications should be assessed to determine a reliable airspeed. To determine a reliable airspeed indication, the flight crew can use a combination of flight deck indications to recognize which airspeed is unreliable. These indications may include: Stick shaker activation on one side only, Unusual airspeed indication on one side only, Pitch Limit Indicator (PLI) on one side only.</audio_text>
+      <instruction>
+      </instruction>
+      <completion>both</completion>
+      <advance>auto</advance>
+    </section>
+  </sections>
+</page>

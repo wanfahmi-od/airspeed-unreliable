@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <metadata>
+    <language>EN</language>
+    <description>
+    </description>
+    <keywords>
+    </keywords>
+    <date>2013-01-07</date>
+    <duration>
+    </duration>
+    <version>1.0</version>
+    <generator>
+    </generator>
+    <package_id>
+    </package_id>
+    <rights>Pelesys Learning Systems Inc.</rights>
+  </metadata>
+  <id>ra01p03</id>
+  <title>Recognition of Unreliable Airspeed – Erroneous AOA Indications</title>
+  <type>no_test</type>
+  <init_required>false</init_required>
+  <unload_required>false</unload_required>
+  <graphics_location>ra01p03.html</graphics_location>
+  <completion>last_section</completion>
+  <data>
+  </data>
+  <sections>
+    <section>
+      <id>s1</id>
+      <audio_location>ra01p03.mp3</audio_location>
+      <audio_text>The images below compare the Captain and First Officer’s PFD during an unreliable airspeed condition caused by an erroneously high AOA scenario on the Captain’s side. Notice the difference between the displays.</audio_text>
+      <instruction>
+      </instruction>
+      <completion>both</completion>
+      <advance>auto</advance>
+    </section>
+  </sections>
+</page>

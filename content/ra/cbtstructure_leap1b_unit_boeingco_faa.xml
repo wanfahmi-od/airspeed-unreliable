@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<organizations>
+  <organization id="RA" location="">
+    <title>Airspeed Unreliable - Determining a Reliable Airspeed</title>
+	
+    <metadata>
+      <language>EN</language>
+      <description></description>
+      <rights>Pelesys Learning Systems Inc.</rights>
+      <content_folder>EN:content/ra</content_folder>
+    </metadata>
+	
+    <item id="home" location="menu_boeing/menu_template.html" itemtype="htmlhome">
+      <title>Home</title>
+    </item>
+
+    <item id="01" itemtype="topic" completion="" visible="false" nav_button="none">
+      <title>Overview, Recognition and Management</title>
+      <item id="ra01intro" location="01/ra01intro.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Introduction</title>
+      </item>
+      <item id="ra01p01" location="01/ra01p01.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>What Causes Unreliable Airspeed Indications?</title>
+      </item>
+      <item id="ra01p02" location="01/ra01p02.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Recognition of Unreliable Airspeed - 01</title>
+      </item>
+      <item id="ra01p03" location="01/ra01p03.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Recognition of Unreliable Airspeed – Erroneous AOA Indications</title>
+      </item>
+      <item id="ra01p04" location="01/ra01p04.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Recognition of Unreliable Airspeed - 02</title>
+      </item>
+	  <item id="ra01p05" location="01/ra01p05.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Airspeed Unreliable Non-Normal Checklist - 01</title>
+      </item>
+	  <item id="ra01p06" location="01/ra01p06.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Airspeed Unreliable Non-Normal Checklist - 02</title>
+      </item>
+	  <item id="ra01p07" location="01/ra01p07.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Airspeed Unreliable Non-Normal Checklist – Memory Items</title>
+      </item>
+	  <item id="ra01p08" location="01/ra01p08.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Determining a Reliable Airspeed Indication - 01</title>
+      </item>
+	  <item id="ra01p09" location="01/ra01p09.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Determining a Reliable Airspeed Indication – Erroneous AOA</title>
+      </item>
+	  <item id="ra01p10" location="01/ra01p10.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Determining a Reliable Airspeed Indication - 02</title>
+      </item>
+	  <item id="ra01p11" location="01/ra01p11.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Determining a Reliable Airspeed Indication - 03</title>
+      </item>
+	  <item id="ra01p12" location="01/ra01p12.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Determining a Reliable Airspeed</title>
+      </item>
+	  <item id="ra01p13" location="01/ra01p13.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Determining a Reliable Airspeed Indication - Example</title>
+      </item>
+	  <item id="ra01p14" location="01/ra01p14.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Determining a Reliable Airspeed Indication - 04</title>
+      </item>
+	  <item id="ra01p15" location="01/ra01p15.xml" itemtype="canvas" completion="" auto_forward="false" visible="true" nav_button="both">
+        <title>Determining a Reliable Airspeed Indication - 05</title>
+      </item>
+    </item>
+    	
+  </organization>
+</organizations>

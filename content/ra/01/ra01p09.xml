@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <metadata>
+    <language>EN</language>
+    <description>
+    </description>
+    <keywords>
+    </keywords>
+    <date>2013-01-07</date>
+    <duration>
+    </duration>
+    <version>1.0</version>
+    <generator>
+    </generator>
+    <package_id>
+    </package_id>
+    <rights>Pelesys Learning Systems Inc.</rights>
+  </metadata>
+  <id>ra01p09</id>
+  <title>Determining a Reliable Airspeed Indication – Erroneous AOA</title>
+  <type>no_test</type>
+  <init_required>false</init_required>
+  <unload_required>false</unload_required>
+  <graphics_location>ra01p09.html</graphics_location>
+  <completion>last_section</completion>
+  <data>
+  </data>
+  <sections>
+    <section>
+      <id>s1</id>
+      <audio_location>ra01p09.mp3</audio_location>
+      <audio_text>In a suspected erroneous AOA condition, the following indications can be shown: AOA DISAGREE alert, Stick shaker activation on one side, Erroneous Pitch Limit Indicator on one side, Unusual airspeed indication on one side, Erroneous minimum or maximum speed bars. In this case, comparing indicated airspeed on the PFDs with the ISFD can help determine a reliable airspeed indication.</audio_text>
+      <instruction>
+      </instruction>
+      <completion>both</completion>
+      <advance>auto</advance>
+    </section>
+  </sections>
+</page>

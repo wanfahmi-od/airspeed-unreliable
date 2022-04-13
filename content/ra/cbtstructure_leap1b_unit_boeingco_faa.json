@@ -1,0 +1,439 @@
+﻿{
+	"__playerversion": "1.7.5.22153",
+	"id": "content/ra/cbtstructure_leap1b_unit_boeingco_faa.xml",
+	"defaultOrganizationId": "RA",
+	"organizations": [
+		{
+			"language": "EN",
+			"contentPath": "content/ra/",
+			"date": "",
+			"expiryDate": "",
+			"fullItems": [
+				{
+					"isVisible": true,
+					"id": "home",
+					"title": "Home",
+					"type": "htmlhome",
+					"location": "menu_boeing/menu_template.html",
+					"folderPath": "content/ra/menu_boeing/"
+				},
+				{
+					"isVisible": true,
+					"fullItems": [
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01intro.mp3",
+									"audioText": "In this lesson we will discuss: Recognizing possible indications and flight deck effects of an unreliable airspeed condition, Managing the alerts associated with an unreliable airspeed condition and Identifying a reliable airspeed indication, if available.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01intro",
+							"title": "Introduction",
+							"type": "canvas",
+							"location": "01/ra01intro.xml",
+							"graphicsLocation": "ra01intro.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p01.mp3",
+									"audioText": "Unreliable airspeed indications may result from erroneous data from the pitot/static or AOA systems, ADIRU or airplane damage.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p01",
+							"title": "What Causes Unreliable Airspeed Indications?",
+							"type": "canvas",
+							"location": "01/ra01p01.xml",
+							"graphicsLocation": "ra01p01.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p02_sounds.mp3",
+									"audioText": "An unreliable airspeed condition may be indicated by one or more of the following flight deck indications and effects: Difference between Captain and First Officer airspeed indications, Blank or fluctuating airspeed indication, Continuous or intermittent stick shaker, IAS DISAGREE alert, ALT DISAGREE alert, AOA DISAGREE alert, SPD failure flag, SPD LIM failure flag, Erroneous minimum or maximum speed bars, Airspeed low aural, Overspeed warning, Erroneous Flight Director (FD) pitch command bar, or Radome damage or loss.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p02",
+							"title": "Recognition of Unreliable Airspeed - 01",
+							"type": "canvas",
+							"location": "01/ra01p02.xml",
+							"graphicsLocation": "ra01p02.html",
+							"data": {
+								"audio": [
+									{
+										"id": "airspeed_low",
+										"src": "sounds/airspeed_low.mp3"
+									},
+									{
+										"id": "shaker",
+										"src": "sounds/shaker.mp3"
+									},
+									{
+										"id": "clacker",
+										"src": "sounds/clacker.mp3"
+									}
+								]
+							},
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p03.mp3",
+									"audioText": "The images below compare the Captain and First Officer’s PFD during an unreliable airspeed condition caused by an erroneously high AOA scenario on the Captain’s side. Notice the difference between the displays.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p03",
+							"title": "Recognition of Unreliable Airspeed – Erroneous AOA Indications",
+							"type": "canvas",
+							"location": "01/ra01p03.xml",
+							"graphicsLocation": "ra01p03.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p04.mp3",
+									"audioText": "The flight crew should be familiar with pitch attitudes and thrust settings for each phase of flight.",
+									"completion": "both",
+									"advance": "auto"
+								},
+								{
+									"id": "s2",
+									"audioLocation": "ra01p04a.mp3",
+									"audioText": "Any significant change in pitch attitude and thrust setting required to maintain a particular airspeed and flight path should alert the flight crew to a potential unreliable airspeed condition.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p04",
+							"title": "Recognition of Unreliable Airspeed - 02",
+							"type": "canvas",
+							"location": "01/ra01p04.xml",
+							"graphicsLocation": "ra01p04.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p05.mp3",
+									"audioText": "The objective of the Airspeed Unreliable Non-Normal Checklist is to identify a reliable airspeed indication, if possible, or to use the Flight With Unreliable Airspeed / Turbulent Air Penetration  table in the Performance Inflight chapter of the QRH for the remainder of the flight. For the remainder of the course, the subject table is referred to as the Flight with Unreliable Airspeed table.",
+									"completion": "both",
+									"advance": "auto"
+								},
+								{
+									"id": "s2",
+									"audioLocation": "ra01p05a.mp3",
+									"audioText": "The Airspeed Unreliable Non-Normal Checklist addresses the PFD alerts resulting from an unreliable airspeed condition. The Airspeed Unreliable Non-Normal Checklist should be done any time the flight crew suspects that airspeed or Mach indications are unreliable.",
+									"completion": "both",
+									"advance": "auto"
+								},
+								{
+									"id": "s3",
+									"audioLocation": "ra01p05b.mp3",
+									"audioText": "Refer to the Airspeed Unreliable Non-Normal Checklist or to your company specific procedures.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p05",
+							"title": "Airspeed Unreliable Non-Normal Checklist - 01",
+							"type": "canvas",
+							"location": "01/ra01p05.xml",
+							"graphicsLocation": "ra01p05.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p06.mp3",
+									"audioText": "If an unreliable airspeed condition is recognized, do the memory items of the Airspeed Unreliable Non-Normal Checklist.",
+									"completion": "both",
+									"advance": "auto"
+								},
+								{
+									"id": "s2",
+									"audioLocation": "ra01p06a.mp3",
+									"audioText": "If an unreliable airspeed condition is recognized, do the memory items of the Airspeed Unreliable Non-Normal Checklist. Within the memory items are pitch and thrust settings for flight with and without flaps extended. The goal of these pitch and thrust settings is to maintain the airplane safely within the flight envelope, not to maintain a specific climb or level flight. The memorized settings are calculated to work for all model and engine combinations, at all weights and at all altitudes.",
+									"completion": "both",
+									"advance": "auto"
+								},
+								{
+									"id": "s3",
+									"audioLocation": "ra01p06b.mp3",
+									"audioText": "Once the flight path is under control and the airplane is not in a critical phase of flight, do the Airspeed Unreliable Non-Normal Checklist.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p06",
+							"title": "Airspeed Unreliable Non-Normal Checklist - 02",
+							"type": "canvas",
+							"location": "01/ra01p06.xml",
+							"graphicsLocation": "ra01p06.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p07.mp3",
+									"audioText": "This video shows an unreliable airspeed scenario after takeoff.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p07",
+							"title": "Airspeed Unreliable Non-Normal Checklist – Memory Items",
+							"type": "canvas",
+							"location": "01/ra01p07.xml",
+							"graphicsLocation": "ra01p07.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p08.mp3",
+									"audioText": "All flight deck indications should be assessed to determine a reliable airspeed. To determine a reliable airspeed indication, the flight crew can use a combination of flight deck indications to recognize which airspeed is unreliable. These indications may include: Stick shaker activation on one side only, Unusual airspeed indication on one side only, Pitch Limit Indicator (PLI) on one side only.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p08",
+							"title": "Determining a Reliable Airspeed Indication - 01",
+							"type": "canvas",
+							"location": "01/ra01p08.xml",
+							"graphicsLocation": "ra01p08.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p09.mp3",
+									"audioText": "In a suspected erroneous AOA condition, the following indications can be shown: AOA DISAGREE alert, Stick shaker activation on one side, Erroneous Pitch Limit Indicator on one side, Unusual airspeed indication on one side, Erroneous minimum or maximum speed bars. In this case, comparing indicated airspeed on the PFDs with the ISFD can help determine a reliable airspeed indication.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p09",
+							"title": "Determining a Reliable Airspeed Indication – Erroneous AOA",
+							"type": "canvas",
+							"location": "01/ra01p09.xml",
+							"graphicsLocation": "ra01p09.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p10.mp3",
+									"audioText": "If a reliable airspeed indication can be initially determined, use the reliable airspeed indication for the remainder of the flight.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p10",
+							"title": "Determining a Reliable Airspeed Indication - 02",
+							"type": "canvas",
+							"location": "01/ra01p10.xml",
+							"graphicsLocation": "ra01p10.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p11.mp3",
+									"audioText": "This video shows the crew doing the reference items of the Non-Normal Checklist to determine a reliable airspeed.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p11",
+							"title": "Determining a Reliable Airspeed Indication - 03",
+							"type": "canvas",
+							"location": "01/ra01p11.xml",
+							"graphicsLocation": "ra01p11.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p12.mp3",
+									"audioText": "If a reliable airspeed indication cannot be initially determined, set pitch attitude and thrust from the Flight With Unreliable Airspeed table in the Performance Inflight chapter of the QRH for the airplane configuration and phase of flight.",
+									"completion": "both",
+									"advance": "auto"
+								},
+								{
+									"id": "s2",
+									"audioLocation": "ra01p12a.mp3",
+									"audioText": "Allow the airplane to stabilize and compare each airspeed indication to those shown on the table.",
+									"completion": "both",
+									"advance": "auto"
+								},
+								{
+									"id": "s3",
+									"audioLocation": "ra01p12b.mp3",
+									"audioText": "An airspeed indication that differs by more than 20 knots or 0.03 Mach from the airspeed shown in the table should be considered unreliable.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p12",
+							"title": "Determining a Reliable Airspeed",
+							"type": "canvas",
+							"location": "01/ra01p12.xml",
+							"graphicsLocation": "ra01p12.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p13.mp3",
+									"audioText": "In the following example, the flight crew encounters an airspeed unreliable condition within the terminal area. The crew completed the Airspeed Unreliable recall items followed by the Airspeed Unreliable Non-Normal Checklist. The crew could not initially determine a reliable airspeed indication and used the Flight With Unreliable Airspeed table in the Performance Inflight chapter of the QRH.",
+									"completion": "both",
+									"advance": "auto"
+								},
+								{
+									"id": "s2",
+									"audioLocation": "ra01p13a.mp3",
+									"audioText": "Terminal Area - 5000ft, Flaps Up and Gear Up, and Current weight: 150,000 LBS.",
+									"completion": "both",
+									"advance": "auto"
+								},
+								{
+									"id": "s5",
+									"audioLocation": "ra01p13b.mp3",
+									"audioText": "Using the table, the crew determined that setting 6º pitch attitude and 53.8% N1 should result in an airspeed of approximately 210 KIAS.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p13",
+							"title": "Determining a Reliable Airspeed Indication - Example",
+							"type": "canvas",
+							"location": "01/ra01p13.xml",
+							"graphicsLocation": "ra01p13.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p14.mp3",
+									"audioText": "If a reliable airspeed indication can be determined by using the Flight With Unreliable Airspeed table of the QRH, use the reliable airspeed indication for the remainder of the flight.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p14",
+							"title": "Determining a Reliable Airspeed Indication - 04",
+							"type": "canvas",
+							"location": "01/ra01p14.xml",
+							"graphicsLocation": "ra01p14.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						},
+						{
+							"isVisible": true,
+							"sections": [
+								{
+									"id": "s1",
+									"audioLocation": "ra01p15.mp3",
+									"audioText": "If it is determined that there are no reliable airspeed indications, the Flight With Unreliable Airspeed table in the Performance Inflight chapter of the QRH should be used as needed for changes to phase of flight or airplane configuration.",
+									"completion": "both",
+									"advance": "auto"
+								},
+								{
+									"id": "s2",
+									"audioLocation": "ra01p15a.mp3",
+									"audioText": "Additionally, the Non-Normal Configuration Landing Distance table of the QRH should be referenced.",
+									"completion": "both",
+									"advance": "auto"
+								}
+							],
+							"id": "ra01p15",
+							"title": "Determining a Reliable Airspeed Indication - 05",
+							"type": "canvas",
+							"location": "01/ra01p15.xml",
+							"graphicsLocation": "ra01p15.html",
+							"data": false,
+							"parentId": "01",
+							"folderPath": "content/ra/01/"
+						}
+					],
+					"id": "01",
+					"title": "Overview, Recognition and Management",
+					"type": "topic"
+				}
+			],
+			"id": "RA",
+			"rights": "Pelesys Learning Systems Inc.",
+			"title": "Airspeed Unreliable - Determining a Reliable Airspeed"
+		}
+	]
+}
